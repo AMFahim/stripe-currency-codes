@@ -25,7 +25,7 @@ const App = () => {
     <>
       <ul>
         {stripeCurrencies.map((currency, index) => (
-          <li key={index}>{currency}</li>
+          <li key={index}>Currency: {currency.currency} -- Code: {currency.code}</li>
         ))}
       </ul>
     </>
@@ -64,7 +64,7 @@ const CurrencyList = () => {
       <h1>Stripe Supported Currencies</h1>
       <ul>
         {stripeCurrencies.map((currency, index) => (
-          <li key={index}>{currency}</li>
+          <li key={index}>Currency: {currency.currency} -- Code: {currency.code}</li>
         ))}
       </ul>
     </div>
