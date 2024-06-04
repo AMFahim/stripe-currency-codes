@@ -73,7 +73,7 @@ const CurrencyList = () => {
 
 export default CurrencyList;
 ```
-Note: You can also use it in input fields, dropdown, or any necessery fields. It does not supported in backed api.
+Note: You can also use it in input fields, dropdown, or any necessery fields. It does not supported in backend api.
 
 ## Contributing
 
