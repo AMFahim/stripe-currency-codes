@@ -1,4 +1,8 @@
 import { useState } from "react";
+interface StripeCurrency {
+    currency: string;
+    code: string;
+  }
 const stripeCurrencyCodes = [
     {currency: 'Afghan Afghani', code: 'AFN'},
     {currency: 'Albanian Lek', code: 'ALL'},
@@ -138,9 +142,9 @@ const stripeCurrencyCodes = [
     {currency: 'Zambian Kwacha', code: 'ZMW'},
   ]
 const useStripeCurrency = () => {
-  const [stripeCurrencies, setStripeCurrencies] = useState(stripeCurrencyCodes);
+  const [stripeCurrencies, setStripeCurrencies] = useState<StripeCurrency[]>(stripeCurrencyCodes);
 
-  return stripeCurrencies;
+  return {stripeCurrencies};
 
 };
 

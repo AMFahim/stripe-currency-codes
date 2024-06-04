@@ -7,8 +7,18 @@
   "scripts": {
     "build": "npx rollup -c"
   },
-  "keywords": ["stripe", "currency", "currencyCodes", "stripeCurrencyCodes", "allStripeCurrencyCodes"],
+  "keywords": [
+    "stripe",
+    "currency",
+    "currencyCodes",
+    "stripeCurrencyCodes",
+    "allStripeCurrencyCodes"
+  ],
   "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AMFahim/stripe-currency-codes"
+},
   "license": "ISC",
   "description": "A npm package to get all stripe currency codes.",
   "devDependencies": {
